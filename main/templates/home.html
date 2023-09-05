@@ -74,8 +74,8 @@
       <section class="right_section">
         <div class="menu">
           <div class="profile_img">
-            <img src="{{student.image.url}}" alt="" />
-            <span>Hello {{request.user.last_name}}</span>
+            <img src="{{request.user.student.image.url}}" alt="" />
+            <span>{{request.user.student.last_name}}</span>
           </div>
           <ul>
             <li>
